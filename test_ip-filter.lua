@@ -39,7 +39,7 @@ table.insert(ip_pattern_arr, {
 table.insert(ip_pattern_arr, {
     ip = "192.168.201.221",
     pattern = "192.168.100-220.255",
-    result = true
+    result = false
 })
 table.insert(ip_pattern_arr, {
     ip = "192.168.201.221",
