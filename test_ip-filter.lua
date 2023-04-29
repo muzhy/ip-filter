@@ -60,4 +60,5 @@ for _, test_case in ipairs(ip_pattern_arr) do
     local res = filter:check(test_case.ip)
     print(string.format("ip[%s], pattern[%s], expect result[%s], exce result[%s]", 
         test_case.ip, test_case.pattern, tostring(test_case.result), tostring(res)))
+    assert(res == test_case.result)
 end
